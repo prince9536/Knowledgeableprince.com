@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Pacifico&family=Rubik&family=Source+Code+Pro:wght@700&display=swap');
+
+*
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+      background-color: rgb(131, 119, 119);
+      font-size: 14px;
+      font-family: cursive;;
+}
+
+.Container{
+
+    background-color: white;
+    width: 500px;
+    padding:25px;
+    margin: 50px auto 0;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+.Container h2{
+                
+                font-size: 24px;
+                text-align: center;
+                padding: 30px;
+     
+}
+
+.input-name{
+             width: 90%;
+             position: relative;
+             margin: 25px auto  ;
+}
+
+
+.Username{
+          width: 45%;
+          padding: 5px 0px 5px 40px;
+}
+
+ .input-name span{
+                    margin-left: 20px;
+ }
+
+ .name{
+        width: 95%;
+        padding: 5px 0px 5px 40px;
+
+ }
+  
+ 
+
+ .input-name i{
+                position: absolute;
+                font-size: 20px;
+                color: blue;
+                border-right: 1px solid #cccccc;
+                padding: 5px;
+                
+
+ }
+
+
+ .radio{
+          margin-right: 5px;
+ }
+
+ .Country{
+          width: 95%;
+          padding: 3px;
+             
+ }
+
+  .Button{
+            padding: 5px;
+            width: 98%;
+            background-color:aquamarine;
+            font-size: 18px;
+
+  }
+
+  .Button:hover{
+                 color: brown;
+                 background-color:lightskyblue
+  }
+
